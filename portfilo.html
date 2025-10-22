@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f6fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #2f3640;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        nav {
+            background-color: #353b48;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00a8ff;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #2f3640;
+            border-bottom: 2px solid #00a8ff;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .project {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: #00a8ff;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+        .resume-link {
+            display: inline-block;
+            margin-top: 10px;
+            background-color: #00a8ff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .resume-link:hover {
+            background-color: #0097e6;
+        }
+
+        footer {
+            background-color: #2f3640;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Venkata Sai</h1>
+        <p>Web Developer | Designer | Student</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm <b>Venkata Sai</b>, a passionate web developer who loves creating beautiful and functional websites. I enjoy learning new technologies and bringing creative ideas to life through code.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>📘 Student Attendance System</h3>
+            <p>A simple web app to mark and track attendance using local storage.</p>
+        </div>
+
+        <div class="project">
+            <h3>📝 To-Do List App</h3>
+            <p>Manage daily tasks efficiently with an interactive to-do list.</p>
+        </div>
+
+        <div class="project">
+            <h3>💡 BMI Calculator</h3>
+            <p>Calculate and display your Body Mass Index using JavaScript.</p>
+        </div>
+      <div class="project">
+            <h3>💡 Tip Calculator</h3>
+                <p>Calculate tips based on bill amount and percentage.</p>
+				</div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Java</div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>You can download my resume here:</p>
+        <a href="resume.pdf" class="CV-Resume-20251014.pdf" download>Download Resume</a>
+        <!-- Replace "resume.pdf" with the path to your actual resume file -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:venkatasai@example.com">venkatasai@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/" target="_blank">github.com/venkatasai-lang</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/" target="_blank">linkedin.com/in/venkatasai</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Venkata Sai | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
